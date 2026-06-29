@@ -42,4 +42,5 @@ app.listen(process.env.PORT, () => {
     console.log("Servidor on")
     console.log(`Rota health rodando em http://localhost:${process.env.PORT}/health`);
     console.log(`Rota clientes rodando em http://localhost:${process.env.PORT}/api/clientes`);
+    console.log(`Rota clientes Hospedada rodando em ${process.env.DB_URL_DEPLOYED}/api/clientes`);
 });
